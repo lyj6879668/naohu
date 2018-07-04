@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="main">
+    <swiper indicator-dots="true" autoplay="true" interval="{{interval}}" duration="{{duration}}" circular="true">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+            <swiper-item>
+                <image src="{{item}}" class="slide-image" width="100%" />
+            </swiper-item>
+        </block>
+    </swiper>
+    <view class="game-box">
+        <view class="game-list">
+            <navigator url='../logs/logs'>
+                <image src="/images/game/s4.png"></image>
+                <view class="newest-text">
+                    <text>瓜子</text>
+                </view>
+            </navigator>
+        </view>
+        <view class="game-list">
+            <navigator url='../logs/logs'>
+                <image src="/images/game/s4.png"></image>
+                <view class="newest-text">
+                    <text>瓜子</text>
+                </view>
+            </navigator>
+        </view>
+        <view class="game-list">
+            <navigator url='../logs/logs'>
+                <image src="/images/game/s4.png"></image>
+                <view class="newest-text">
+                    <text>瓜子</text>
+                </view>
+            </navigator>
+        </view>
+        <view class="game-list">
+            <navigator url='../logs/logs'>
+                <image src="/images/game/s4.png"></image>
+                <view class="newest-text">
+                    <text>瓜子</text>
+                </view>
+            </navigator>
+        </view>
+    </view>
+</view>
