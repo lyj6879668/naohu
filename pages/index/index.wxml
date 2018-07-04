@@ -12,7 +12,7 @@
             <navigator url='../logs/logs'>
                 <image src="/images/game/s4.png"></image>
                 <view class="newest-text">
-                    <text>瓜子</text>
+                    <text>2048</text>
                 </view>
             </navigator>
         </view>
@@ -20,7 +20,7 @@
             <navigator url='../logs/logs'>
                 <image src="/images/game/s4.png"></image>
                 <view class="newest-text">
-                    <text>瓜子</text>
+                    <text>雷电</text>
                 </view>
             </navigator>
         </view>
